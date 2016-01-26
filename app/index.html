@@ -6,8 +6,16 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-  <h1>Hello, <i class="fa fa-globe"></i></h1>
-  
+  <!-- This is a *view* - HTML markup that defines the appearance of your UI -->
+
+    <p>First name: <strong data-bind="text: firstName"></strong></p>
+    <p>Last name: <strong data-bind="text: lastName"></strong></p>
+
+    <p>First name: <input data-bind="value: firstName" /></p>
+    <p>Last name: <input data-bind="value: lastName" /> <button data-bind="click: capitalizeLastName">Capitalize</button> <button data-bind="click: lowercaseLastName">Lowercase</button> <button data-bind="click: capitalizeFirstLetter">Capitalize Just the First Letter </button></p>
+
+    <p>Full name: <strong data-bind="text: fullName"></strong></p>
+
   <script src="js/main.js"></script>
 </body>
 </html>

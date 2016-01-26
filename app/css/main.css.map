@@ -1,0 +1,1 @@
+{"version":3,"file":"main.css","sources":["main.scss"],"sourcesContent":["// Put any @imports here\n// See Readme for a list of supported ones\n\nbody {\n  background: white;\n  font-family: 'Courier';\n}\n"],"mappings":"AAGA,IAAI,CAAC;EACH,UAAU,EAAE,KAAM;EAClB,WAAW,EAAE,SAAU,GACxB","names":[],"sourceRoot":"/source/"}
